@@ -1,6 +1,5 @@
-from django.contrib import admin 
-from .models import glossary_entry 
-
-admin.site.register(glossary_entry)
-
+from django.contrib import admin
+from .models import Category
 # Register your models here.
+
+admin.site.register(Category)
